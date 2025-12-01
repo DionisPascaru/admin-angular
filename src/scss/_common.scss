@@ -1,0 +1,28 @@
+.ve-container {
+  width: calc(100% - 1.5rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.75rem;  // same as Bootstrap’s horizontal padding (.container)
+  padding-right: 0.75rem;
+
+  // Responsive max-widths
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}

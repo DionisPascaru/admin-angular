@@ -1,0 +1,20 @@
+// Primary Palette
+$color-primary: #1d4066; // Deep navy blue (main background)
+$color-primary-dark: #1a3d63; // Darker shade for gradients or hovers
+$color-primary-light: #f6fafd; // Lighter variant for accents
+$color-primary-grey: #e5e7eb; // Lighter variant for accents
+
+// Accent Colors
+$color-accent: #34979d; // Teal (used for buttons like "Search" and "Book Venue")
+
+// Highlights
+$color-highlight: #f8a381; // Orange accent (for rating "4.8★")
+
+// Text Colors
+$color-text-primary: #ffffff; // White text on dark background
+$color-text-secondary: #e5e7eb; // Light gray text
+$color-text-dark: #1a3d63; // Dark text for light backgrounds
+$color-text-muted: #6b7280; // Muted gray for secondary info
+
+// Gradients
+$gradient-hero: linear-gradient(180deg, #1d4066 0%, #1a3d63 100%);
