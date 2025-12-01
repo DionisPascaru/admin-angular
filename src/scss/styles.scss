@@ -4,7 +4,8 @@
 // components according to the Material 3 design spec.
 // Learn more about theming and how to use it for your application's
 // custom components at https://material.angular.dev/guide/theming
-@use '@angular/material' as mat;
+@use '../../node_modules/@angular/material/index' as mat;
+@use 'common' as *;
 
 html {
   @include mat.theme((

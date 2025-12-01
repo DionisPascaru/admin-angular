@@ -1,0 +1,22 @@
+.ve-home-hero {
+  &-search-form {
+    width: 500px;
+
+    &-row {
+      display: flex;
+      align-items: center;
+    }
+
+    &-field {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 10px;
+      border: none;
+      //height: 50px;
+    }
+
+    &-button {
+
+    }
+  }
+}
