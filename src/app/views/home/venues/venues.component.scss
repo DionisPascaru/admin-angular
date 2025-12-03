@@ -1,0 +1,18 @@
+@use "colors" as *;
+.ve-venues {
+  background-color: $color-primary-light;
+
+  &-heading {
+    text-align: center;
+    padding: 50px 0;
+
+    h2 {
+      font-weight: 500;
+      color: $color-text-dark;
+    }
+
+    p {
+      color: $color-text-dark;
+    }
+  }
+}
