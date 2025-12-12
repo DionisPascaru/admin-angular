@@ -4,6 +4,12 @@
       <h2>Featured Venues</h2>
       <p>Explore our top-rated sports venues with world-class facilities</p>
     </div>
-    <venue-card-component></venue-card-component>
+    <div class="ve-venues-grid-list">
+      @for (venue of venues; track venue.id) {
+        <div class="ve-venues-grid-list-item">
+          <venue-card-component [venue]="venue"></venue-card-component>
+        </div>
+      }
+    </div>
   </div>
 </div>

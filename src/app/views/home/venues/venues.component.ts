@@ -6,10 +6,35 @@ import {VenueCardComponent} from "../../../components/venues/card/venue-card.com
   standalone: true,
   templateUrl: 'venues.component.html',
   imports: [
-    VenueCardComponent
+    VenueCardComponent,
   ],
   styleUrl: 'venues.component.scss'
 })
 export class VenuesComponent {
-
+  public venues = [
+    {
+      id: 1,
+      title: 'Beach Volleyball Paradise',
+      address: 'Rockaway Beach, NY',
+      tags: ['Floodlights', 'Changing Rooms', 'Parking'],
+      category: 'Football',
+      status: 'Available',
+    },
+    {
+      id: 2,
+      title: 'Beach Volleyball Paradise',
+      address: 'Rockaway Beach, NY',
+      tags: ['Floodlights', 'Changing Rooms', 'Parking'],
+      category: 'Football',
+      status: 'Available',
+    },
+    {
+      id: 3,
+      title: 'Beach Volleyball Paradise',
+      address: 'Rockaway Beach, NY',
+      tags: ['Floodlights', 'Changing Rooms', 'Parking'],
+      category: 'Football',
+      status: 'Available',
+    },
+  ];
 }

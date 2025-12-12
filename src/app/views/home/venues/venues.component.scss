@@ -1,4 +1,6 @@
 @use "colors" as *;
+@use "breakpoints" as *;
+
 .ve-venues {
   background-color: $color-primary-light;
 
@@ -13,6 +15,23 @@
 
     p {
       color: $color-text-dark;
+    }
+  }
+
+  &-grid-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    &-item {
+      width: 100%;
+
+      @include respond(md) {
+        width: calc(50% - 1.5rem);
+      }
+      @include respond(lg) {
+        width: calc(33.3% - 2.5rem);
+      }
     }
   }
 }
