@@ -1,3 +1,5 @@
+@use "colors" as *;
+
 .ve-container {
   width: calc(100% - 1.5rem);
   margin-left: auto;
@@ -24,5 +26,75 @@
 
   @media (min-width: 1400px) {
     max-width: 1320px;
+  }
+}
+
+ul {
+  padding: unset;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ve-slot {
+  padding: 3px 10px;
+  border-radius: 10px;
+  background-color: $color-primary-light;
+  border: 1px solid $color-primary-grey;
+  font-size: 12px;
+  color: $color-text-dark;
+  line-height: 1;
+
+  &-accent {
+    background-color: $color-accent;
+    border-color: $color-accent;
+    color: $color-text-primary;
+  }
+
+  &-highlight {
+    background-color: $color-highlight;
+    border-color: $color-highlight;
+    color: $color-text-dark;
+  }
+}
+
+.ve-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+
+  &-tag {
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: $color-primary-blue;
+    font-size: 12px;
+    color: $color-text-dark;
+  }
+}
+
+.ve-btn {
+  border-radius: 10px;
+  padding: 0.75rem 2.75rem;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+
+  &-outlined {
+    background-color: $color-primary-light;
+    border: 1px solid $color-primary-grey;
+    color: $color-text-dark;
+
+    &:hover {
+      background-color: $color-primary-blue;
+    }
+  }
+
+  &-filled {
+    background-color: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+    color: $color-text-primary;
   }
 }

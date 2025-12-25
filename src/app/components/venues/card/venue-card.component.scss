@@ -1,0 +1,44 @@
+@use 'colors' as *;
+
+.ve-venue-card {
+  width: 100%;
+  border: 1px solid $color-primary-grey;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+
+  &-slots {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    right: 0.75rem;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-image {
+    width: 100%;
+    height: 150px;
+    background-color: $color-primary-dark;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background-color: $color-primary-white;
+
+    &-info {
+      color: $color-text-dark;
+      font-size: 16px;
+    }
+  }
+
+  &-actions {
+    display: flex;
+    gap: 0.75rem;
+  }
+}
