@@ -29,6 +29,15 @@
   }
 }
 
+ul {
+  padding: unset;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .ve-slot {
   padding: 3px 10px;
   border-radius: 10px;
